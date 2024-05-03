@@ -1,0 +1,189 @@
+{
+	"info": {
+		"_postman_id": "18156874-a2c6-4566-8a15-2553457b9692",
+		"name": "BankAccounts",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "32629573"
+	},
+	"item": [
+		{
+			"name": "GetAllBankAccounts",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"username": "{{username}}",
+						"password": "{{password}}"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "https://{{domain}}/ds/campusnexus/BankAccounts"
+			},
+			"response": []
+		},
+		{
+			"name": "GetBankAccountsById",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"username": "{{username}}",
+						"password": "{{password}}"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "https://{{domain}}/ds/campusnexus/BankAccounts({{Id}})"
+			},
+			"response": []
+		},
+		{
+			"name": "GetBankAccountsByCampusIdAndBankAccountId",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"username": "{{username}}",
+						"password": "{{password}}"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "https://{{domain}}/ds/campusnexus/BankAccounts/CampusNexus.GetBankAccountNames(campusId={{campusId}},bankAccountId={{bankAccountId}})"
+			},
+			"response": []
+		},
+		{
+			"name": "GetBankAccountsByCampusIds",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"username": "{{username}}",
+						"password": "{{password}}"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "https://{{domain}}/ds/campusnexus/BankAccounts/CampusNexus.GetBankAccountByCampuses(campusIds=[1,2,3])"
+			},
+			"response": []
+		},
+		{
+			"name": "GetBankAccountsByPlainCheckBookData",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"username": "{{username}}",
+						"password": "{{password}}"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "https://{{domain}}/ds/campusnexus/BankAccounts/CampusNexus.GetGreatPlainCheckBookData(active={{active}})"
+			},
+			"response": []
+		},
+		{
+			"name": "GetBankAccountsByCampusBankAccountDetails",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"username": "{{username}}",
+						"password": "{{password}}"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "https://{{domain}}/ds/campusnexus/BankAccounts/CampusNexus.GetDefaultBankAccountDetailsByCampus(campusId=2)"
+			},
+			"response": []
+		},
+		{
+			"name": "GetBankAccountsByCheckBookDataAndCmpusId",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"username": "{{username}}",
+						"password": "{{password}}"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "https://{{domain}}/ds/campusnexus/BankAccounts/CampusNexus.GetGreatPlainCheckBookDataByCampus(inActive={{inActive}},campusId={{campusId}})"
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "username",
+			"value": "gkumar@700031cm.onmicrosoft.com",
+			"type": "string"
+		},
+		{
+			"key": "password",
+			"value": "GK$AI2024",
+			"type": "string"
+		},
+		{
+			"key": "domain",
+			"value": "sisclientweb-700031.campusnexus.cloud",
+			"type": "string"
+		},
+		{
+			"key": "campusId",
+			"value": "1",
+			"type": "string"
+		},
+		{
+			"key": "bankAccountId",
+			"value": "1",
+			"type": "string"
+		},
+		{
+			"key": "active",
+			"value": "1",
+			"type": "string"
+		},
+		{
+			"key": "Id",
+			"value": "1",
+			"type": "string"
+		},
+		{
+			"key": "inActive",
+			"value": "1",
+			"type": "string"
+		},
+		{
+			"key": "campusIds",
+			"value": "1",
+			"type": "string"
+		}
+	]
+}
