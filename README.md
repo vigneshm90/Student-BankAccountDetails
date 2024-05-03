@@ -18,10 +18,10 @@ MOdify the variables as per the requirement.
 _userName   - Username to access the API 
 _password   - Password to access the API 
 _domainName - Domain name of the Student
-_campusId  -  Campus associated with the bank account .
-_bankAccountId  - Bank account associatied with campus.
-_Id - Bank Account Id.
-_active - active status.
-_inActive - In active status.
-_campusIds - List of campus ids.
+_campusId  -  Campus associated with the bank account
+_bankAccountId  - Bank account associatied with campus
+_Id - Bank Account Id
+_active - active status
+_inActive - In active status
+_campusIds - List of campus ids
 
