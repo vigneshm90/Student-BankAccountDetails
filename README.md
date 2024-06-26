@@ -15,8 +15,8 @@ Import the API collection as file or URL.
 MOdify the variables as per the requirement. 
 
 # Variables used in this API collections
-_userName   - Username to access the API 
-_password   - Password to access the API 
+$userName   - Username to access the API 
+$password   - Password to access the API 
 _domainName - Domain name of the Student
 _campusId  -  Campus associated with the bank account
 _bankAccountId  - Bank account associatied with campus

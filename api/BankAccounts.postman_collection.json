@@ -1,7 +1,7 @@
 {
 	"info": {
-		"_postman_id": "18156874-a2c6-4566-8a15-2553457b9692",
-		"name": "BankAccounts",
+		"_postman_id": "e7afea26-60ea-4234-9df1-432deb92f207",
+		"name": "BankAccounts Copy",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
 		"_exporter_id": "32629573"
 	},
@@ -142,12 +142,12 @@
 	"variable": [
 		{
 			"key": "username",
-			"value": "gkumar@700031cm.onmicrosoft.com",
+			"value": "$userName",
 			"type": "string"
 		},
 		{
 			"key": "password",
-			"value": "GK$AI2024",
+			"value": "$password",
 			"type": "string"
 		},
 		{
